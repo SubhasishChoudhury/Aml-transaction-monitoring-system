@@ -1,70 +1,50 @@
-\# AML Transaction Monitoring \& Risk Scoring System
+# End-to-End AML Monitoring & Case Management System
 
+## Overview
 
+This repository contains two AML projects that together simulate a complete Anti-Money Laundering workflow.
 
-\## Objective
+### Project 1: AML Transaction Monitoring & Risk Scoring
 
-To develop a rule-based AML monitoring system that identifies suspicious financial transactions, assigns risk scores, and generates alerts for investigation.
+Features:
+- Transaction Monitoring
+- Fraud Detection
+- Risk Scoring
+- Alert Generation
+- AML Dashboard & EDA
 
+### Project 2: AML Alert Prioritization & Case Management
 
+Features:
+- Alert Prioritization
+- Case Creation
+- Investigator Assignment
+- Case Status Tracking
+- SAR Decision Engine
+- AML Operational Metrics
 
-\## Dataset
+## End-to-End AML Workflow
 
-\- PaySim Financial Transactions Dataset
+Transaction Monitoring
+↓
+Risk Scoring
+↓
+Alert Generation
+↓
+Alert Prioritization
+↓
+Case Management
+↓
+SAR Decision
 
-\- 50,000 sampled transactions
+## Technologies Used
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Kaggle
 
+## Author
 
-\## Tools Used
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Kaggle Notebook
-
-
-
-\## Methodology
-
-1\. Loaded and explored transaction data.
-
-2\. Analyzed fraud distribution.
-
-3\. Developed a rule-based risk scoring engine.
-
-4\. Classified transactions into Low, Medium, and High risk categories.
-
-5\. Generated suspicious activity alerts.
-
-6\. Identified high-risk transactions for investigation.
-
-
-
-\## Key Findings
-
-\- Fraud Rate = 0.20%
-
-\- Fraud concentrated in TRANSFER and CASH\_OUT transactions.
-
-\- Generated 20,276 suspicious alerts.
-
-\- Improved risk scoring successfully pushed all fraud into Medium and High risk categories.
-
-
-
-\## Future Improvements
-
-\- Logistic Regression
-
-\- Random Forest
-
-\- XGBoost
-
-\- Real-time transaction monitoring
-
+Subhasish Choudhury
